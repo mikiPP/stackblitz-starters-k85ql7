@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .subtitle {
+    @apply font-bold text-2xl pb-1;
+  }
+
+  .description {
+    @apply text-zinc-500 text-sm;
+  }
+
+  .wrapper {
+    @apply mx-auto px-4 max-w-7xl;
+  }
+}

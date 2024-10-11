@@ -1,7 +1,5 @@
+import Library from '@/app/src/ui/features/library/page';
+
 export default function Home() {
-  return (
-    <div>
-      <h1 className="bg-red-400">Hola </h1>
-    </div>
-  );
+  return <Library />;
 }
