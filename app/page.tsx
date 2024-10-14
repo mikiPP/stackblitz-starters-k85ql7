@@ -1,4 +1,4 @@
-import Library from '@/app/src/ui/features/library/page';
+import Library from '@/src/ui/features/library/pages';
 
 export default function Home() {
   return <Library />;

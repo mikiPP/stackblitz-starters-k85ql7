@@ -14,4 +14,12 @@
   .wrapper {
     @apply mx-auto px-4 max-w-7xl;
   }
+
+  .outline-btn {
+    @apply border-2 border-black text-black py-2 px-4 rounded-md text-sm font-semibold;
+  }
+
+  .page {
+    @apply bg-backgroud-color-400 min-h-screen;
+  }
 }
